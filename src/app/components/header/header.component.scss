@@ -1,0 +1,139 @@
+header {
+    height: 80px;
+    background-color: #faf7f5;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+     margin-left: 40px;
+}
+
+.menu {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    font-weight: 500;
+    font-size: 19px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.para-empresas, .para-voce, .ajuda, .busca {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding-right: 16px;
+}
+
+.para-empresas:hover, .para-voce:hover, .ajuda:hover, .busca:hover {
+    border-bottom: 4px solid #025195;
+}
+
+.area-login {
+    display: flex;
+    justify-content: start;
+}
+
+.area-login div {
+    height:44px;
+    width: 174px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-right: 7px;
+    border-radius: 5px;
+}
+
+.area-login div input{
+    border: none;
+    height: 24px;
+    width: 67px;
+    margin: 5px;
+    color: #706a66;
+}
+
+.area-login div span{
+   color: #efe9e5;
+   font-weight: 400;
+}
+
+.btn-entrar-cadeado {
+    width: 48px;
+    height: 48px;
+    border: transparent;
+    border-radius: 4px;
+    background-color: #d6d0cc;
+    cursor: default;
+}
+
+.btn-entrar-cadeado img {
+    margin-left: -1px;
+}
+
+.btn-entrar-liberado {
+    width: 48px;
+    height: 48px;
+    border: transparent;
+    border-radius: 4px;
+    background-color: #003767;
+    cursor: pointer;
+}
+
+.btn-entrar-liberado img {
+    margin-left: -1px;
+}
+
+.area-acesso-e-abertura-de-conta {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: -30px;
+}
+
+.btn-acessos {
+    font-size: 19px;
+    font-weight: 600;
+    margin-right: 10px;
+    border: none;
+    background-color: transparent;a
+
+    span {
+        margin-right: 10px;
+        font-weight: 300;
+        color: red;
+        font-size: 24px;
+    }
+
+}
+
+
+.div-btn-abre-sua-conta {
+margin: 0;
+}
+
+.btn-abre-sua-conta {
+    width: 150px;
+    height: 38px;
+    background: transparent;
+    color:#003767;
+    font-weight: 600;
+    font-size: 19px;
+    border: 1px solid #003767;
+    padding: 0px;
+    margin: 0px;
+}
+
+.btn-abre-sua-conta:hover {
+    background: #003767;
+    color:#ffffff;
+}
+
+

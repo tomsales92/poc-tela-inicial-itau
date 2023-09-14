@@ -1,11 +1,62 @@
-<div class="">
-    <div>
-     logo
+<header>
+    <div class="container">
+        <div class="row content">
+            <div class="col-md-1">
+                <img src="../../../assets/logo.png" alt="Logo Itau Empresas" class="logo" width="150">
+            </div>
+
+            <div class="col-md-5">
+                <div class="menu">
+                    <div class="para-empresas">
+                        <span>para empresas</span>
+                    </div>
+
+                    <div class="para-voce">
+                        <span>para voce</span>
+                    </div>
+
+                    <div class="ajuda">
+                        <span>ajuda</span>
+                    </div>
+
+                    <div class="busca">
+                        <span>busca</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <div class="area-login">
+                    <div>
+                        <input type="text" [mask]="'0000'" (input)="capturarValorAgencia($event)"> 
+                        <span>|</span>
+                        <input type="text" [mask]="'0000-0'" (input)="capturarValorConta($event)">
+                    </div>
+                    
+                    <button class="btn-entrar-cadeado" *ngIf="gerenciaBotaoLogin() == false; else elseTemplate" >
+                        <img src="../../../assets/cadeado.png" alt="Acesso não permitido">
+                    </button>
+                    <ng-template #elseTemplate>
+                    <button class="btn-entrar-liberado">
+                        <img src="../../../assets/seta-entrar.png" alt="Acesso permitido">
+                    </button>
+                    </ng-template>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="area-acesso-e-abertura-de-conta">
+                    <div class="div-btn-abre-sua-conta">
+                        <button type="button" class="btn-acessos"><span>+</span>acessos</button>
+                    </div>
+                    
+                    <div class="div-btn-abre-sua-conta">
+                        <button type="button" class="btn btn-abre-sua-conta">abre sua conta</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    
     </div>
-    <div>
-        menu
-    </div>
-    <div>
-        acessos
-    </div>
-</div>
+</header>

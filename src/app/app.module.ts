@@ -7,7 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { PronampeComponent } from './pages/pronampe/pronampe.component';
 import { FacilidadesItauComponent } from './pages/facilidades-itau/facilidades-itau.component';
-
+import { NgxMaskModule } from 'ngx-mask';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +18,8 @@ import { FacilidadesItauComponent } from './pages/facilidades-itau/facilidades-i
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxMaskModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
