@@ -1,0 +1,52 @@
+.content {
+    height: 470px;
+    background-color: #003767;
+}
+.div-title{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    padding-left: 110px;
+}
+
+.title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .icon img {
+        width: 36px;
+    }
+}
+
+.card {
+    height: 240px;
+}
+
+.text {
+    margin-top: 20px;
+
+    strong {
+        font-size: 20px;
+    }
+}
+
+.saiba-mais {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.credito {
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
